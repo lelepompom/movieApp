@@ -1,0 +1,6 @@
+<h2>Movie List</h2>
+<div *ngFor="let movie of movies">
+    <p>{{movie.title}}</p>
+    <p>{{movie.year}}</p>
+    <button (click)="redirectDetail(movie)">More</button>
+</div>
